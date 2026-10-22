@@ -127,8 +127,8 @@ window.onload = function () {
   if (btnConfirmar) {
     btnConfirmar.addEventListener("click", (e) => {
       e.preventDefault();
-      const mensajeConfirmacion = encodeURIComponent("¡Hola! Quiero confirmar mi asistencia a tus 15 años ✨");
-      window.open(`https://wa.me/+5493854354477?text=${mensajeConfirmacion}`, "_blank");
+      const mensajeConfirmacion = encodeURIComponent("¡Hola! Me encantó su invitacíon web , quiero crear una por favor !");
+      window.open(`https://wa.me/+5493853026369?text=${mensajeConfirmacion}`, "_blank");
     });
   }
 
@@ -137,8 +137,8 @@ window.onload = function () {
   if (btnWhatsapp) {
     btnWhatsapp.addEventListener("click", (e) => {
       e.preventDefault();
-      const mensaje = encodeURIComponent("¡Hola! Quiero confirmar mi asistencia a tus 15 años ✨");
-      window.open(`https://wa.me/+5493854354477?text=${mensaje}`, "_blank");
+      const mensaje = encodeURIComponent("¡Hola! Me encantó su invitacíon web , quiero crear una por favor !");
+      window.open(`https://wa.me/+5493853026369?text=${mensaje}`, "_blank");
     });
   }
 };
